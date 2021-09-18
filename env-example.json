@@ -1,0 +1,5 @@
+{
+    "HelloWorldFunction": {
+        "SLACK_WEBHOOK_URL": "<replace your https://hooks.slack.com/ url.>"
+    }
+}
