@@ -23,3 +23,10 @@ sam local invoke "HelloWorldFunction" -e events/event.json --env-vars env.json
 ```bash
 sam deploy --guided
 ```
+
+## Cleanup
+
+```bash
+# aws cloudformation delete-stack --stack-name <app name> --region <region>
+aws cloudformation delete-stack --stack-name sam-app --region ap-northeast-1
+```
